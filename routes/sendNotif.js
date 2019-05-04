@@ -5,7 +5,7 @@ var router = express.Router();
 router.post('/', function(req, res, next) {
     var nama = req.body.nama
     var admin = require('../Config/firebaseConfig')
-    var registrationToken = 'cux-0Yi2syo:APA91bFTZqYFKlcprqeMvYjSzrT7zkymvAHMUKvQkfwKBXYaDxaHbvDX1Xoi1Ck5rAvznswPkiO1VKCcJE5Aw3IQ7gvIC56lV3PjjlHGNlCgFEi_QqR3wXln-ibTGMDZbCecDjZ6TcQp';
+    var registrationToken = req.body.registertoken;
 // See documentation on defining a message payload.
     var message = {
         notification: {
@@ -20,6 +20,7 @@ router.post('/', function(req, res, next) {
     };
 // Send a message to the device corresponding to the provided
 // registration token.
+
     admin.messaging().send(message)
         .then((response) => {
             // Response is a message ID string.
