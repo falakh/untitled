@@ -9,23 +9,15 @@ router.get('/', function (req, res, next) {
             {
                 name: "Evan",
                 singgle: "http://" + link + "/images/Singgle/1.jpg",
-                corwd: "http://" + link + "/images/Crowd/1.jpg"
+                crowd: "http://" + link + "/images/Crowd/1.jpg"
             }, {
             name: "Jemal",
             singgle: "http://" + link + "/images/Singgle/2.jpg",
-            corwd: "http://" + link + "/images/Crowd/2.jpg"
-        },{
+            crowd: "http://" + link + "/images/Crowd/2.jpg"
+        }, {
             name: "Bella",
             singgle: "http://" + link + "/images/Singgle/3.jpg",
-            corwd: "http://" + link + "/images/Crowd/3.jpg"
-        },{
-            name: "Bella",
-            singgle: "http://" + link + "/images/Singgle/3.jpg",
-            corwd: "http://" + link + "/images/Crowd/3.jpg"
-        },{
-            name: "Cassia",
-            singgle: "http://" + link + "/images/Singgle/4.jpg",
-            corwd: "http://" + link + "/images/Crowd/4.jpg"
+            crowd: "http://" + link + "/images/Crowd/3.jpg"
         }
 
 
