@@ -13,6 +13,7 @@
     "fcm-node": "^1.4.0",
     "firebase-admin": "^7.2.0",
     "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.0",
     "nodemon": "^1.18.10",
     "pug": "^2.0.3"
